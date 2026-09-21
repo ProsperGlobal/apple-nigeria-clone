@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text", "SF Pro Display", "Myriad Set Pro", system-ui,-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #F5F5F7;
+    position: fixed;
+    z-index: 1000;
+}
+
+.countrybar {
+    width: 980px;
+    height: 66px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.countrytext {
+    width: 500px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.countryselect {
+    width: 343px;
+    height: 36px;
+    position: relative;
+}
+
+.countryselect select {
+    width: 343px;
+    height: 36px;
+    background-color: #FAFAFC;
+    border: none;
+    border-radius: 10px;
+    padding-left: 43px;
+    padding-right: 35px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    outline: none;
+}
+
+
+.tickicon {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.Continue {
+    margin-left: 16px;
+    background-color: #1D1D1F;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 9px 16px;
+    border-radius: 8px;
+}
+
+.xicon {
+    margin-left: 15px;
+    object-fit: contain;
+}
+
+nav {
+    width: 980px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+}
+
+
+.applelogo {
+    width: 17px;
+    height: 20px;
+    margin-top: 8px;
+}
+
+
+.navicon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.lastchance {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #1D1D1F;
+    font-size: 14px;
+    /* padding-top: 100px; */
+    z-index: 1000;
+}
+
+.lastchance a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+#chance1 {
+    color: #1D1D1F;
+    font-size: 14px;
+text-decoration: underline;
+}
+
+.lastchance a:hover {
+    text-decoration: underline;
+}
+
+.iphonehero {
+    width: 100%;
+    height: 520px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.herotext {
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    left: 0;
+    z-index: 2;
+}
+
+
+.herotext h1 {
+    color: #F5F5F7;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+
+.herotext h2 {
+    color: #F5F5F7;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.herobuttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.herobuttons a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore {
+    background-color: #0077ED;
+    color: white;
+    padding: 11px 21px;
+    border-radius: 25px;
+}
+
+
+.buy {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+
+.buy:hover {
+    background-color: #0077ED;
+    color: white;
+}
+
+
+.iphone18 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: -160px;
+    display: block;
+}
+
+.iphoneduo {
+ width: 100%;
+height: 600px;
+background-color: #F5F5F6;
+text-align: center;
+background-image: url(hero_iphone_duo_announce__fh4u8yzndpe2_mediumtall_2x.jpg);
+background-size: 880px auto; 
+background-repeat: no-repeat;
+background-position: 240px 60px;
+padding-top: 50px;
+margin-top: 10px;
+}
+
+.iphoneduo a {
+      text-decoration: none;
+}
+
+
+.iphoneduo-pre {
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    left: 0;
+    z-index: 2;
+}
+
+
+.iphoneduo div h1 {
+    color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    text-decoration: none;
+}
+
+
+.iphoneduo div h2 {
+    color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    margin-top: 7px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.iphoneduo div div {
+   color: #6E6E73;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.herobuttons1 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.herobuttons1 a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore1 {
+    background-color: #0077ED;
+    color: white;
+    padding: 11px 21px;
+    border-radius: 25px;
+}
+
+
+.buy1 {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.upgrade-parent {
+    background-image: url(appleupgradebackground.jpg);
+    background-color: #F5F5F6;
+    width: 100%;
+    height: 545px;
+    background-repeat: no-repeat;
+    background-position: center -10px;
+    background-size: 850px auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.upgrade-parent a {
+       text-decoration: none;
+}
+
+.upgrade-parent img {
+    margin-top: 50px;
+ 
+}
+
+.upgrade-parent h2 {
+    color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    line-height: 60px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+margin-top: -25px;
+margin-left: -10px;
+margin-bottom: 10px; 
+
+}
+
+.learnmore2 {
+    background-color: #0077ED;
+    color: white;
+    margin-top: 30px;
+    padding: 11px 21px;
+    border-radius: 25px;
+}
+
+.incredible-containers {
+     background-color: #FFFFFF;
+    margin-top: 10px;
+flex-wrap: wrap;
+}
+
+.incredible-child {
+   
+    border: 2px solid red;
+
+}
