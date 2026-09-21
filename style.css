@@ -346,13 +346,418 @@ margin-bottom: 10px;
 }
 
 .incredible-containers {
-     background-color: #FFFFFF;
-    margin-top: 10px;
+background-color: #FFFFFF;
+margin-top: 10px;
 flex-wrap: wrap;
+/* border: 2px solid blue; */
+display: flex;
+gap: 10px;
+margin-left: 10px;
 }
 
-.incredible-child {
-   
-    border: 2px solid red;
 
+
+.incredible-child:nth-child(1) {
+width: 49%;
+text-decoration: none;
+/* border: 2px solid red; */
+background-color: #F5F5F7;
+height: 570px;
+position: relative;
+overflow: hidden;
+}
+
+.incredible-child h2 {
+    color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    line-height: 44px;
+    font-weight: 600;
+    text-align: center;
+margin-top: 55px;
+position: relative;
+z-index: 2;
+}
+
+.incredible-child p {
+    color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.findyourdeal {
+    background-color: #0077ED;
+    color: white;
+   top: 4.7%;
+    padding: 9px 19px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 2;
+    margin-left: 250px;
+    text-decoration: none;
+}
+
+.promocarriers {
+  position: absolute;
+top: -8%;
+left: 0%;
+z-index: 1;
+width: 1000px;
+height: auto;
+}
+
+.incredible-child:nth-child(2) {
+    width: 49%;
+    /* border: 2px solid green; */
+    background-color: #010001;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.series12 {
+width: 800px; 
+  
+}
+
+.watchseriesmain {
+position: absolute;
+top: 10%;
+left: 28%;
+width: 290px;
+z-index: 2;
+}
+
+.accurate-heart {
+position: absolute;
+z-index: 2;
+bottom: 18%;
+left: 31%;
+color: #F5F5F7;
+font-family: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 19px;
+line-height: 24px;
+text-align: center;
+font-weight: 600;
+}
+
+.seriesbuttons {
+display: flex;
+ position: absolute;
+ bottom: 8.5%;
+ left: 36.8%;
+gap: 14px;
+z-index: 3;
+} 
+
+.seriesbuttons a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore7 {
+    background-color: #0077ED;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.buy7 {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 7px 17px;
+    border-radius: 25px;
+}
+
+.incredible-child:nth-child(3) {
+     width: 49%;
+    /* border: 2px solid purple; */
+    background-color: #010101;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F5F5F7;
+}
+
+.watchultra {
+margin-top: 55px;
+width: 290px;
+position: absolute;
+z-index: 3;
+right: 27%;
+}
+
+.watchultra2 {
+width: 1023px;
+margin-top: 0px;
+position: absolute;
+top: -3%;
+left: -0.5%;
+}
+
+#battery {
+font-family: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 520;
+color: #F5F5F7;
+margin-top: 105px;
+}
+
+.seriesbuttons8 {
+display: flex;
+ position: absolute;
+ top: 25%;
+ left: 35.8%;
+gap: 14px;
+z-index: 3;
+} 
+
+.seriesbuttons8 a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore8 {
+    background-color: #0077ED;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.buy8 {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 7px 17px;
+    border-radius: 25px;
+}
+
+
+.incredible-child:nth-child(4) {
+    width: 49%;
+      /* border: 2px solid yellow; */
+      height: 570px;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+        text-align: center;
+  z-index: 1;
+}
+
+
+.airpods5 {
+    color: #F5F5F7;
+    font-family: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    letter-spacing: 0px;
+  position: absolute;
+  z-index: 3;
+  bottom: 30%;
+  left: 33%;
+}
+
+#discoverthepower {
+    position: absolute;
+    z-index: 3;
+    bottom: 20%;
+    left: 29%;
+    color: #F5F5F7;
+    font-family: "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21.5px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.seriesbuttons9 {
+display: flex;
+ position: absolute;
+ bottom: 11.5%;
+ left: 32.8%;
+gap: 14px;
+z-index: 3;
+} 
+
+.seriesbuttons9 a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore9 {
+    background-color: #0077ED;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.buy9 {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 7px 17px;
+    border-radius: 25px;
+}
+
+.incredible-child:nth-child(5) {
+    width: 49%;
+    /* border: 2px solid orangered; */
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+}
+
+#Macbookair {
+   color: #1D1D1F;
+font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 37px;
+line-height: 44px;
+font-weight: 600;
+text-align: center;
+top: 9%;
+left: 31%;
+position: absolute;
+z-index: 3;
+}
+
+#supercharged {
+        color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 540;
+  top: 16.5%;
+  left: 30.5%;
+    letter-spacing: 0.23px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.seriesbuttons10 {
+display: flex;
+ position: absolute;
+ top: 23%;
+ left: 32.8%;
+gap: 14px;
+z-index: 3;
+} 
+
+.seriesbuttons10 a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore10 {
+    background-color: #0077ED;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.buy10 {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 7px 17px;
+    border-radius: 25px;
+}
+
+.macbookairpromo {
+    margin-top: -34px;
+}
+
+.incredible-child:nth-child(6) {
+  width: 49%;
+    background-color: #F5F5F7;
+      /* border: 2px solid brown; */
+      height: 570px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      text-align: center;
+      justify-content: center;
+      text-decoration: none;
+}
+
+.maincard {
+margin-top: 60px;
+width: 120px;
+position: absolute;
+z-index: 3;
+right: 41%;
+}
+
+.maincardpurchase {
+     color: #1D1D1F;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 540;
+  top: 19.5%;
+  left: 30.5%;
+    letter-spacing: 0.23px;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+margin-top: -10px;
+}
+
+.seriesbuttons11 {
+display: flex;
+ position: absolute;
+ top: 28.5%;
+ left: 32.8%;
+gap: 14px;
+z-index: 3;
+} 
+
+.seriesbuttons11 a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.learnmore11 {
+    background-color: #0077ED;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 25px;
+}
+
+.buy11 {
+    color: #2997FF;
+    border: 1px solid #2997FF;
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+
+.entertainment-parent {
+    background-color: #F5F5F6;
+    margin-top: 15px;
+}
+
+.entertainment-parent h2 {
+    color:#000000;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 56px;
+line-height: 60px;
+font-weight: 600;
+
+padding: 55px 45px 10px 10px;
+text-align: center;
 }
