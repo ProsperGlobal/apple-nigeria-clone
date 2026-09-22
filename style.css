@@ -17,6 +17,7 @@ header {
     background-color: #F5F5F7;
     position: fixed;
     z-index: 1000;
+    margin-bottom: 112px;
 }
 
 .countrybar {
@@ -86,6 +87,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(245, 245, 247, 0.8);
 }
 
 
@@ -111,15 +113,15 @@ nav a {
 
 .lastchance {
     width: 100%;
-    height: 52px;
+    height: 162px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     color: #1D1D1F;
     font-size: 14px;
-    /* padding-top: 100px; */
-    z-index: 1000;
+    padding-top: 100px; 
+    /* margin-top: 50px; */
 }
 
 .lastchance a {
@@ -757,7 +759,190 @@ z-index: 3;
 font-size: 56px;
 line-height: 60px;
 font-weight: 600;
-
-padding: 55px 45px 10px 10px;
+padding: 55px 55px 10px 10px;
+margin-bottom: 15px;
 text-align: center;
+}
+
+.entertainment-cards {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 12px;
+    scroll-snap-type: x mandatory;
+}
+
+.card1 {
+Width: 934px;
+Height: 514px;
+  flex-shrink: 0;
+overflow: hidden;
+scroll-snap-align: center;
+}
+
+.card1 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.terms-parent {
+    background-color: #F5F5F6;
+    padding-bottom: 7px;
+}
+
+.terms {
+    color: RGBA(0, 0, 0, 0.56);
+    font-size: 12px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron",
+"Helvetica Neue", Arial, Helvetica, sans-serif
+sans-serif;
+font-weight: 400;
+letter-spacing: -0.12px;
+margin: 0px 100px;
+}
+
+.terms p {
+    margin-bottom: 12px;
+}
+
+.terms ol {
+    margin-left: 18px;
+    margin-bottom: 0px;
+}
+
+.terms ol li {
+    padding-left: 4px;
+    margin-bottom: 12px;
+}
+
+.terms li p {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.terms a {
+    color: RGBA(0, 0, 0, 0.56);
+}
+
+footer {
+    background-color: #F5F5F6;
+}
+
+
+.footer-child {
+  display: flex;
+margin: 0px 185px;
+  width: 930px;
+    flex-shrink: 0;
+    gap: 50px;
+    flex-wrap: nowrap;
+     padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-child div {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+
+.footer-child > div > div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.footer-child span {
+    display: block;
+    color: RGBA(0, 0, 0, 0.88);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16.0005px;
+    letter-spacing: -0.12px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    margin-top: 14px;
+}
+
+.footer-child a {
+    color: RGBA(0, 0, 0, 0.72);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16.0005px;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
+.footer-child a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 980px;
+    margin: 0px auto;
+    padding-bottom: 25px;
+}
+
+.more-ways {
+    color: RGBA(0, 0, 0, 0.56);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.more-ways a {
+    color: #0066CC;
+    text-decoration: underline;
+}
+
+.footer-line {
+    border-top: 1px solid RGBA(0, 0, 0, 0.16);
+}
+
+.copyright-parent {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    color: RGBA(0, 0, 0, 0.56);
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+}
+
+.copyright {
+    margin-right: 35px;
+}
+
+.footer-anchor {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-anchor a {
+    color: RGBA(0, 0, 0, 0.72);
+    text-decoration: none;
+}
+
+.footer-anchor a:hover {
+    text-decoration: underline;
+}
+
+.footer-anchor span {
+    color: RGBA(0, 0, 0, 0.32);
+}
+
+.country {
+    margin-left: auto;
+    color: RGBA(0, 0, 0, 0.72);
 }
