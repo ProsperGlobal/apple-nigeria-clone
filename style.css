@@ -88,6 +88,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: rgba(245, 245, 247, 0.8);
+  backdrop-filter: blur(25px);
+-webkit-backdrop-filter: blur(25px);
 }
 
 
@@ -333,10 +335,7 @@ margin-top: 10px;
     line-height: 60px;
     font-weight: 500;
     letter-spacing: -0.3px;
-margin-top: -25px;
-margin-left: -10px;
-margin-bottom: 10px; 
-
+margin: -25px auto 10px -10px;
 }
 
 .learnmore2 {
@@ -785,6 +784,67 @@ scroll-snap-align: center;
     object-fit: cover;
 }
 
+.card1::-webkit-scrollbar {
+    display: none;
+}
+
+.entertainment-cards {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 12px;
+    scroll-snap-type: x mandatory;
+}
+
+.entertainment-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.card1 {
+    width: 934px;
+    height: 514px;
+    flex-shrink: 0;
+    overflow: hidden;
+    scroll-snap-align: center;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.entertainment-subcards {
+    display: flex;
+    gap: 13px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 17px 36px;
+    scroll-snap-type: x mandatory;
+}
+
+.entertainment-subcards::-webkit-scrollbar {
+    display: none;
+}
+
+.subcard1 {
+    width: 417px;
+    height: 235px;
+    flex: 0 0 417px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    display: block;
+}
+
+.subcard1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
 .terms-parent {
     background-color: #F5F5F6;
     padding-bottom: 7px;
@@ -939,7 +999,7 @@ margin: 0px 185px;
 }
 
 .footer-anchor span {
-    color: RGBA(0, 0, 0, 0.32);
+    color: RGBA(0, 253, 0, 0.32);
 }
 
 .country {
