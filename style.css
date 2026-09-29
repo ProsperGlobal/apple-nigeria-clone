@@ -1006,3 +1006,237 @@ margin: 0px 185px;
     margin-left: auto;
     color: RGBA(0, 0, 0, 0.72);
 }
+
+@media (min-width: 1920px) {
+
+    .countrybar {
+        width: 1200px;
+    }
+
+    .countrytext {
+        width: 600px;
+    }
+
+    nav {
+        width: 1200px;
+    }
+
+
+    .iphonehero {
+        height: 650px;
+    }
+
+    .herotext {
+        top: 55px;
+    }
+
+    .herotext h1 {
+        font-size: 64px;
+        line-height: 68px;
+    }
+
+    .herotext h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .iphone18 {
+        width: 100%;
+        top: -220px;
+    }
+
+
+    .iphoneduo {
+        height: 700px;
+        background-size: 1200px auto;
+        background-position: center 50px;
+    }
+
+    .iphoneduo div h1 {
+        font-size: 64px;
+        line-height: 68px;
+    }
+
+    .iphoneduo div h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+    .upgrade-parent {
+        height: 650px;
+        background-size: 1050px auto;
+        background-position: center -10px;
+    }
+
+
+    .incredible-containers {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        gap: 10px;
+    }
+
+    .incredible-child:nth-child(1),
+    .incredible-child:nth-child(2),
+    .incredible-child:nth-child(3),
+    .incredible-child:nth-child(4),
+    .incredible-child:nth-child(5),
+    .incredible-child:nth-child(6) {
+        width: calc(50% - 5px);
+        height: 650px;
+    }
+
+
+    .incredible-child h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .incredible-child p {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+
+    .findyourdeal {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        margin-left: 0;
+        transform: translateX(-50%);
+    }
+
+
+    .watchseriesmain {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 320px;
+    }
+
+    .accurate-heart {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .seriesbuttons {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .watchultra {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 320px;
+    }
+
+    .watchultra2 {
+        width: 1150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .seriesbuttons8 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .airpods5 {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 44px;
+    }
+
+    #discoverthepower {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .seriesbuttons9 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    #Macbookair {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 42px;
+    }
+
+    #supercharged {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .seriesbuttons10 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .maincard {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 135px;
+    }
+
+    .maincardpurchase {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .seriesbuttons11 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .entertainment-parent h2 {
+        font-size: 64px;
+        line-height: 68px;
+    }
+
+    .card1 {
+        width: 1200px;
+        height: 660px;
+    }
+
+    .entertainment-cards {
+        gap: 16px;
+    }
+
+    .entertainment-subcards {
+        gap: 16px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .subcard1 {
+        width: 520px;
+        height: 293px;
+        flex: 0 0 520px;
+    }
+
+
+    .terms {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .footer-child {
+        width: 1200px;
+        margin: 0 auto;
+        gap: 70px;
+        justify-content: space-between;
+    }
+
+    .footer-bottom {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
